@@ -94,12 +94,10 @@ values tuple pairs
  
  # Exercise : Use the update method to change the course and add a new 
  # key "WhatsApp_Number" to the dictionary
- 
+
 student_dict.update({
     'course': 'BIST',
     'WhatsApp_Number': '0709913676'
 })
 print(student_dict)
 print()
-
-
