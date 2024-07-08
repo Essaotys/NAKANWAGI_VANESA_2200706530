@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soil</title>
+</head>
+<body>
+  <h1>Soil Moisture readings</h1>
+  <ul>
+    {% for reading in readings %}
+        <li>{{ reading.timestamp }}: {{ reading.moisture_percentage }}%</li>
+    {% endfor %}
+ <ul>
+  <p>Soil is a natural resource composed of minerals, organic matter, water, and air. It is a crucial part of the Earth's ecosystem, supporting plant life, regulating water flow, and influencing the atmosphere.</p>
+</body>
+</html>
